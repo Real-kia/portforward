@@ -1,4 +1,4 @@
-<h1>wizwiz tools</h1>
+<h1>iptable tunnel</h1>
 
 <p>برای نصب از اسکریپت زیر استفاده کنید</p>
 
