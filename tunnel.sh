@@ -1,4 +1,5 @@
 apt update
+apt install net-tools
 read -p "Enter the IP address of SERVER1: " VPS1_IP
 VPS_IP=$(ifconfig eth0 | grep 'inet ' | awk '{print $2}' | cut -d ':' -f2)
 sudo sysctl net.ipv4.ip_forward=1
