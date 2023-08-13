@@ -1,3 +1,6 @@
+
+sudo iptables -F
+sudo iptables -t nat -F
 apt update
 apt install net-tools
 read -p "Enter the IP address of SERVER1: " VPS1_IP
